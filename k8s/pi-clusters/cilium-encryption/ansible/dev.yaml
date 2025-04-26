@@ -1,0 +1,6 @@
+[masters]
+master02 ansible_host=192.168.178.43 rke2_type=server
+master01 ansible_host=192.168.178.40 rke2_type=server
+
+[k8s_cluster:children]
+masters
