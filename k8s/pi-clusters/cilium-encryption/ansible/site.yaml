@@ -18,4 +18,4 @@
     rke2_custom_manifests:
       - templates/rke2-cilium-config.yaml
   roles:
-     - role: lablabs.rke2
+     - role: lablabs
