@@ -30,7 +30,7 @@ master02                   : ok=36   changed=11   unreachable=0    failed=0    s
 # Deploy the cluster
 
 
-https://github.com/lablabs/ansible-role-rke2z
+
 
   After deploy it, i just removed the taint to work with master nodes. Maybe there is in the ansible some option to do it.
 
